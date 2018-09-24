@@ -19,5 +19,5 @@ konanArtifacts {
 }
 
 task wat(dependsOn: build, type: Exec) {
-    commandLine 'wasm2wat', 'build/konan/bin/wasm32/kwrc20.wasm', '-o','build/konan/bin/wasm32/kwrc20.wat'
+    commandLine 'wasm2wat', 'build/konan/bin/wasm32/kwrc20.wasm', '--ignore', '-o','build/konan/bin/wasm32/kwrc20.wat'
 }
