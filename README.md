@@ -2,6 +2,19 @@
 
 Kotlin implementation for the WRC20 (WASM + ERC20) challenge
 
+# Build
+
+run:
+
+```./gradlew build```
+
+to get the wat file run:
+
+```./gradlew wat```
+
+Note: for this task you need wasm2wat installed from here:
+https://github.com/WebAssembly/wabt
+
 # Disclaimer
 
 This is not production ready code - this is just an experiment currently.
