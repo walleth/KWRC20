@@ -1,4 +1,4 @@
 {
 "type":"wasm",
-"stages":["build"]
+"stages":["wat"]
 }
